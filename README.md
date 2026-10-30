@@ -65,4 +65,19 @@ python mining.py
 
 Blockhain Prüfen 
 
-python validate_chain.py
+python validate_chain.py```
+
+## Validierung und Tests
+
+```bash
+python validate_chain.py                # Originalkette nur lesen
+python validate_chain.py /pfad/zu/blocks
+python -m unittest discover -s tests -v
+```
+
+Der Validator prüft alle Blöcke einschließlich Genesis und Proof of Work.
+Exitcode 0 bedeutet gültig, 1 bedeutet ungültig/nicht lesbar.
+Die mitgelieferte Originalkette enthält bereits einen Hashfehler in Block 3
+und eine davon betroffene Referenz in Block 4; sie bleibt unverändert.
+Details, Grenzen des Legacy-Formats und tatsächliche Testergebnisse:
+[Validierungsbericht](docs/validation-review.md).

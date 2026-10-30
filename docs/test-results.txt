@@ -1,0 +1,28 @@
+test_bad_files_fail_closed (test_validate_chain.ValidationTests.test_bad_files_fail_closed) ... ok
+test_broken_link (test_validate_chain.ValidationTests.test_broken_link) ... ok
+test_cli_empty_and_missing_directory (test_validate_chain.ValidationTests.test_cli_empty_and_missing_directory) ... ok
+test_cli_exit_codes_and_read_only (test_validate_chain.ValidationTests.test_cli_exit_codes_and_read_only) ... ok
+test_data_mutations_every_block (test_validate_chain.ValidationTests.test_data_mutations_every_block) ... ok
+test_does_not_modify_input (test_validate_chain.ValidationTests.test_does_not_modify_input) ... ok
+test_empty_chain (test_validate_chain.ValidationTests.test_empty_chain) ... ok
+test_genesis_parent (test_validate_chain.ValidationTests.test_genesis_parent) ... ok
+test_genesis_uses_initial_not_new_target (test_validate_chain.ValidationTests.test_genesis_uses_initial_not_new_target) ... ok
+test_hash_consistent_but_invalid_pow_each_block (test_validate_chain.ValidationTests.test_hash_consistent_but_invalid_pow_each_block) ... ok
+test_later_block_uses_predecessor_target (test_validate_chain.ValidationTests.test_later_block_uses_predecessor_target) ... ok
+test_malformed_fields (test_validate_chain.ValidationTests.test_malformed_fields) ... ok
+test_missing_and_unknown_fields (test_validate_chain.ValidationTests.test_missing_and_unknown_fields) ... ok
+test_missing_genesis_duplicate_or_reordered_ids (test_validate_chain.ValidationTests.test_missing_genesis_duplicate_or_reordered_ids) ... ok
+test_non_object_block (test_validate_chain.ValidationTests.test_non_object_block) ... ok
+test_nonce_mutations_every_block (test_validate_chain.ValidationTests.test_nonce_mutations_every_block) ... ok
+test_numeric_file_order (test_validate_chain.ValidationTests.test_numeric_file_order) ... ok
+test_original_blocks_detect_existing_corruption (test_validate_chain.ValidationTests.test_original_blocks_detect_existing_corruption) ... ok
+test_rounded_time_boundary (test_validate_chain.ValidationTests.test_rounded_time_boundary) ... ok
+test_target_equality_is_invalid (test_validate_chain.ValidationTests.test_target_equality_is_invalid) ... ok
+test_target_inflation (test_validate_chain.ValidationTests.test_target_inflation) ... ok
+test_valid_chain (test_validate_chain.ValidationTests.test_valid_chain) ... ok
+test_valid_genesis_alone (test_validate_chain.ValidationTests.test_valid_genesis_alone) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.301s
+
+OK

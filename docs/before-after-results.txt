@@ -1,0 +1,12 @@
+valid_fixture
+BEFORE: exit=0; ✅ Blockchain ist gültig
+AFTER: exit=0; ✅ Blockchain ist gültig
+genesis_data_changed_hash_unchanged
+BEFORE: exit=0; ✅ Blockchain ist gültig
+AFTER: exit=1; ❌ Block 1: Hash manipuliert
+❌ Block 1: Proof-of-Work ungültig (Hash >= Target)
+⛔ Blockchain ist UNGÜLTIG
+consistent_hash_invalid_genesis_pow
+BEFORE: exit=0; ✅ Blockchain ist gültig
+AFTER: exit=1; ❌ Block 1: Proof-of-Work ungültig (Hash >= Target)
+⛔ Blockchain ist UNGÜLTIG
