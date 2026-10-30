@@ -1,0 +1,4 @@
+❌ Block 3: Hash manipuliert
+❌ Block 4: previous_hash stimmt nicht
+⛔ Blockchain ist UNGÜLTIG
+Exit code: 1
